@@ -1,0 +1,24 @@
+{
+	"texture": "textures/entity/rabbit/squirrel_assets",
+	"textureSize": [64, 32],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+				"coordinates": [0, 0, 0, 4, 13, 5],
+				"uvNorth": [49, 18, 53, 31],
+				"uvEast": [44, 18, 49, 31],
+				"uvSouth": [58, 18, 62, 31],
+				"uvWest": [53, 18, 58, 31],
+				"uvUp": [49, 13, 53, 18],
+				"uvDown": [53, 13, 57, 18]
+
+			}
+		],
+		"id": "Tail",
+				"translate": [-2.0,-14.0,-2.0],
+				"rotate": [0,0,0]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "comment": "Model by Messire_Lie",
+  "models":
+  [
+
+  {
+      "model": "sheep_horns.jpm",
+      "part": "head",
+      "attach": true,
+      "translate": [0, -5, 1],
+      "rotate": [0, 0, 0]
+  }
+
+
+  ]
+}

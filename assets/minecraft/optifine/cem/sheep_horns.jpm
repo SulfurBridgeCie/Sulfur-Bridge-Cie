@@ -1,0 +1,119 @@
+{
+	"texture": "textures/entity/sheep/horns",
+	"textureSize": [32, 32],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [-6, 0, -4, 4, 3, 3],
+					"uvNorth": [18, 26, 22, 29],
+					"uvEast": [15, 26, 18, 29],
+					"uvSouth": [25, 26, 29, 29],
+					"uvWest": [22, 26, 25, 29],
+					"uvUp": [18, 23, 22, 26],
+					"uvDown": [22, 23, 26, 26]
+				}
+			],
+			"id": "baseR"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [6, 2, -2, 2, 6, 3],
+					"uvNorth": [14, 16, 16, 22],
+					"uvEast": [11, 16, 14, 22],
+					"uvSouth": [19, 16, 21, 22],
+					"uvWest": [16, 16, 19, 22],
+					"uvUp": [14, 13, 16, 16],
+					"uvDown": [16, 13, 18, 16]
+				}
+			],
+			"id": "middleL"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [5, 8, -5, 2, 2, 4],
+					"uvNorth": [17, 10, 19, 12],
+					"uvEast": [13, 10, 17, 12],
+					"uvSouth": [23, 10, 25, 12],
+					"uvWest": [19, 10, 23, 12],
+					"uvUp": [16, 6, 19, 10],
+					"uvDown": [19, 6, 22, 10]
+				}
+			],
+			"id": "lowL"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [5, 6, -7, 2, 3, 2],
+					"uvNorth": [11, 2, 13, 5],
+					"uvEast": [9, 2, 11, 5],
+					"uvSouth": [15, 2, 17, 5],
+					"uvWest": [13, 2, 15, 5],
+					"uvUp": [11, 0, 13, 2],
+					"uvDown": [13, 0, 15, 2]
+				}
+			],
+			"id": "pointL"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [-8, 2, -2, 2, 6, 3],
+					"uvNorth": [3, 16, 5, 22],
+					"uvEast": [0, 16, 3, 22],
+					"uvSouth": [8, 16, 10, 22],
+					"uvWest": [5, 16, 8, 22],
+					"uvUp": [3, 13, 5, 16],
+					"uvDown": [5, 13, 7, 16]
+				}
+			],
+			"id": "middleR"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [-7, 8, -5, 2, 2, 4],
+					"uvNorth": [4, 10, 6, 12],
+					"uvEast": [0, 10, 4, 12],
+					"uvSouth": [10, 10, 12, 12],
+					"uvWest": [6, 10, 10, 12],
+					"uvUp": [3, 6, 6, 10],
+					"uvDown": [6, 6, 9, 10]
+				}
+			],
+			"id": "lowR"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [-7, 6, -7, 2, 3, 2],
+					"uvNorth": [2, 2, 4, 5],
+					"uvEast": [0, 2, 2, 5],
+					"uvSouth": [6, 2, 8, 5],
+					"uvWest": [4, 2, 6, 5],
+					"uvUp": [2, 0, 4, 2],
+					"uvDown": [4, 0, 6, 2]
+				}
+			],
+			"id": "pointR"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [2, 0, -4, 4, 3, 3],
+					"uvNorth": [3, 26, 7, 29],
+					"uvEast": [0, 26, 3, 29],
+					"uvSouth": [10, 26, 14, 29],
+					"uvWest": [7, 26, 10, 29],
+					"uvUp": [3, 23, 7, 26],
+					"uvDown": [7, 23, 11, 26]
+				}
+			],
+			"id": "baseL"
+		}
+	]
+}

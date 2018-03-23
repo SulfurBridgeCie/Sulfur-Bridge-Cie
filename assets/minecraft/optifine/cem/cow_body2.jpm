@@ -1,0 +1,22 @@
+{
+	"texture": "textures/entity/cow/body2",
+	"textureSize": [64, 32],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 14, 15, 12],
+					"uvNorth": [12, 12, 26, 27],
+					"uvEast": [0, 12, 12, 27],
+					"uvSouth": [38, 12, 52, 27],
+					"uvWest": [26, 12, 38, 27],
+					"uvUp": [12, 0, 26, 12],
+					"uvDown": [26, 0, 40, 12]
+				}
+			],
+			"id": "cube",
+			"rotate": [-90, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "comment": "Model by Messire_Lie",
+  "models":
+  [
+
+  {
+      "model": "cow_body2.jpm",
+      "part": "body",
+      "attach": true,
+      "translate": [-7, -10.5, 6],
+      "rotate": [0, 0, 0]
+  },
+
+  {
+      "model": "cow_horns.jpm",
+      "part": "head",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+  }
+
+
+  ]
+}

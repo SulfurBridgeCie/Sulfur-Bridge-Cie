@@ -1,5 +1,5 @@
 {
-	"texture": "textures/entity/cow/body2",
+	"texture": "textures/entity/cow/cow_body",
 	"textureSize": [64, 32],
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"submodels": [
@@ -7,12 +7,12 @@
 			"boxes": [
 				{
 					"coordinates": [1, -5, -5.5, 4, 1, 5],
-					"uvNorth": [40, 0, 64, 32],
-					"uvEast": [0, 0, 4, 2],
-					"uvSouth": [0, 0, 4, 2],
-					"uvWest": [0, 0, 4, 2],
-					"uvUp": [0, 0, 4, 2],
-					"uvDown": [0, 0, 4, 2]
+					"uvNorth": [45, 5, 49, 6],
+					"uvEast": [40, 5, 45, 6],
+					"uvSouth": [54, 5, 58, 6],
+					"uvWest": [49, 5, 54, 6],
+					"uvUp": [44, 0, 49, 5],
+					"uvDown": [49, 0, 54, 5]
 				}
 			],
 			"id": "corne_baseG"
@@ -21,12 +21,12 @@
 			"boxes": [
 				{
 					"coordinates": [5, -4, -4.5, 1, 6, 3],
-					"uvNorth": [52, 12, 64, 32],
-					"uvEast": [0, 0, 4, 2],
-					"uvSouth": [0, 0, 4, 2],
-					"uvWest": [0, 0, 4, 2],
-					"uvUp": [0, 0, 4, 2],
-					"uvDown": [0, 0, 4, 2]
+					"uvNorth": [55, 15, 56, 21],
+					"uvEast": [52, 15, 55, 21],
+					"uvSouth": [59, 15, 60, 21],
+					"uvWest": [56, 15, 59, 21],
+					"uvUp": [55, 12, 56, 15],
+					"uvDown": [56, 12, 57, 15]
 				}
 			],
 			"id": "corne_medianG"
@@ -35,12 +35,12 @@
 			"boxes": [
 				{
 					"coordinates": [6, 2, -4, 2, 1, 2],
-					"uvNorth": [40, 9, 64, 32],
-					"uvEast": [0, 0, 4, 2],
-					"uvSouth": [0, 0, 4, 2],
-					"uvWest": [0, 0, 4, 2],
-					"uvUp": [0, 0, 4, 2],
-					"uvDown": [0, 0, 4, 2]
+					"uvNorth": [42, 11, 44, 12],
+					"uvEast": [40, 11, 42, 12],
+					"uvSouth": [46, 11, 48, 12],
+					"uvWest": [44, 11, 46, 12],
+					"uvUp": [42, 9, 44, 11],
+					"uvDown": [44, 9, 46, 11]
 				}
 			],
 			"id": "corne_basG"
@@ -49,12 +49,12 @@
 			"boxes": [
 				{
 					"coordinates": [8, 1, -3.5, 1, 1, 1],
-					"uvNorth": [48, 10, 64, 32],
-					"uvEast": [0, 0, 4, 2],
-					"uvSouth": [0, 0, 4, 2],
-					"uvWest": [0, 0, 4, 2],
-					"uvUp": [0, 0, 4, 2],
-					"uvDown": [0, 0, 4, 2]
+					"uvNorth": [49, 11, 50, 12],
+					"uvEast": [48, 11, 49, 12],
+					"uvSouth": [51, 11, 52, 12],
+					"uvWest": [50, 11, 51, 12],
+					"uvUp": [49, 10, 50, 11],
+					"uvDown": [50, 10, 51, 11]
 				}
 			],
 			"id": "corne_pointeG"
@@ -63,12 +63,12 @@
 			"boxes": [
 				{
 					"coordinates": [-5, -5, -5.5, 4, 1, 5],
-					"uvNorth": [40, 0, 64, 32],
-					"uvEast": [0, 0, 4, 2],
-					"uvSouth": [0, 0, 4, 2],
-					"uvWest": [0, 0, 4, 2],
-					"uvUp": [0, 0, 4, 2],
-					"uvDown": [0, 0, 4, 2]
+					"uvNorth": [45, 5, 49, 6],
+					"uvEast": [40, 5, 45, 6],
+					"uvSouth": [54, 5, 58, 6],
+					"uvWest": [49, 5, 54, 6],
+					"uvUp": [44, 0, 49, 5],
+					"uvDown": [49, 0, 54, 5]
 				}
 			],
 			"id": "corne_baseD"
@@ -77,12 +77,12 @@
 			"boxes": [
 				{
 					"coordinates": [-9, 1, -3.5, 1, 1, 1],
-					"uvNorth": [48, 10, 64, 32],
-					"uvEast": [0, 0, 4, 2],
-					"uvSouth": [0, 0, 4, 2],
-					"uvWest": [0, 0, 4, 2],
-					"uvUp": [0, 0, 4, 2],
-					"uvDown": [0, 0, 4, 2]
+					"uvNorth": [49, 11, 50, 12],
+					"uvEast": [48, 11, 49, 12],
+					"uvSouth": [51, 11, 52, 12],
+					"uvWest": [50, 11, 51, 12],
+					"uvUp": [49, 10, 50, 11],
+					"uvDown": [50, 10, 51, 11]
 				}
 			],
 			"id": "corne_pointeD"
@@ -91,12 +91,12 @@
 			"boxes": [
 				{
 					"coordinates": [-6, -4, -4.5, 1, 6, 3],
-					"uvNorth": [52, 12, 64, 32],
-					"uvEast": [0, 0, 4, 2],
-					"uvSouth": [0, 0, 4, 2],
-					"uvWest": [0, 0, 4, 2],
-					"uvUp": [0, 0, 4, 2],
-					"uvDown": [0, 0, 4, 2]
+					"uvNorth": [55, 15, 56, 21],
+					"uvEast": [52, 15, 55, 21],
+					"uvSouth": [59, 15, 60, 21],
+					"uvWest": [56, 15, 59, 21],
+					"uvUp": [55, 12, 56, 15],
+					"uvDown": [56, 12, 57, 15]
 				}
 			],
 			"id": "corne_medianD"
@@ -105,12 +105,12 @@
 			"boxes": [
 				{
 					"coordinates": [-8, 2, -4, 2, 1, 2],
-					"uvNorth": [40, 9, 64, 32],
-					"uvEast": [0, 0, 4, 2],
-					"uvSouth": [0, 0, 4, 2],
-					"uvWest": [0, 0, 4, 2],
-					"uvUp": [0, 0, 4, 2],
-					"uvDown": [0, 0, 4, 2]
+					"uvNorth": [42, 11, 44, 12],
+					"uvEast": [40, 11, 42, 12],
+					"uvSouth": [46, 11, 48, 12],
+					"uvWest": [44, 11, 46, 12],
+					"uvUp": [42, 9, 44, 11],
+					"uvDown": [44, 9, 46, 11]
 				}
 			],
 			"id": "corne_basD"

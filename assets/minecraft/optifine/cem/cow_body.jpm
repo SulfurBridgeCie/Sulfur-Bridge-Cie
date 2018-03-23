@@ -1,5 +1,5 @@
 {
-	"texture": "textures/entity/cow/body2",
+	"texture": "textures/entity/cow/cow_body",
 	"textureSize": [64, 32],
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"submodels": [

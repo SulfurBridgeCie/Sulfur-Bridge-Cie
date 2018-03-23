@@ -4,7 +4,7 @@
   [
 
   {
-      "model": "cow_body2.jpm",
+      "model": "cow_body.jpm",
       "part": "body",
       "attach": true,
       "translate": [-7, -10.5, 6],

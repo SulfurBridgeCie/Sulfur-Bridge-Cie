@@ -1,0 +1,77 @@
+{
+	"texture": "textures/entity/cat/nyan",
+	"textureSize": [32, 32],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 2, 2, 1, 17],
+					"uvNorth": [0, 0, 1, 1],
+					"uvEast": [0, 0, 1, 1],
+					"uvSouth": [0, 0, 1, 1],
+					"uvWest": [0, 0, 1, 1],
+					"uvUp": [0, 0, 1, 1],
+					"uvDown": [0, 0, 1, 1]
+				}
+			],
+			"id": "tarte_haut"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 1, 1, 2, 16, 19],
+					"uvNorth": [0, 0, 1, 1],
+					"uvEast": [1, 1, 20, 17],
+					"uvSouth": [0, 0, 1, 1],
+					"uvWest": [1, 1, 20, 17],
+					"uvUp": [0, 0, 1, 1],
+					"uvDown": [0, 0, 1, 1]
+				}
+			],
+			"id": "tarte_centre"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 17, 2, 2, 1, 17],
+					"uvNorth": [0, 0, 1, 1],
+					"uvEast": [0, 0, 1, 1],
+					"uvSouth": [0, 0, 1, 1],
+					"uvWest": [0, 0, 1, 1],
+					"uvUp": [0, 0, 1, 1],
+					"uvDown": [0, 0, 1, 1]
+				}
+			],
+			"id": "tarte_bas"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 2, 0, 2, 15, 1],
+					"uvNorth": [0, 0, 1, 1],
+					"uvEast": [0, 0, 1, 1],
+					"uvSouth": [0, 0, 1, 1],
+					"uvWest": [0, 0, 1, 1],
+					"uvUp": [0, 0, 1, 1],
+					"uvDown": [0, 0, 1, 1]
+				}
+			],
+			"id": "tarte_gauche"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 2, 20, 2, 15, 1],
+					"uvNorth": [0, 0, 1, 1],
+					"uvEast": [0, 0, 1, 1],
+					"uvSouth": [0, 0, 1, 1],
+					"uvWest": [0, 0, 1, 1],
+					"uvUp": [0, 0, 1, 1],
+					"uvDown": [0, 0, 1, 1]
+				}
+			],
+			"id": "tarte_droite"
+		}
+	]
+}

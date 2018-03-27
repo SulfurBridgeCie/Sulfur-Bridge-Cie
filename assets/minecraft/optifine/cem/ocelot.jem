@@ -1,0 +1,15 @@
+{
+  "comment": "Model by Messire_Lie",
+  "models":
+  [
+
+  {
+      "model": "cat_nyan.jpm",
+      "part": "body",
+      "attach": true,
+      "translate": [-1, 2, 10],
+      "rotate": [-90, 0, 0]
+  }
+
+  ]
+}

@@ -1,0 +1,35 @@
+{
+	"texture": "textures/entity/villager/testificate_man",
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [-1, 0, 0, 2, 5, 0.25],
+					"uvNorth": [41, 59, 43, 64],
+					"uvEast": [41, 59, 42, 64],
+					"uvSouth": [41, 59, 43, 64],
+					"uvWest": [42, 59, 43, 64],
+					"uvUp": [41, 59, 43, 60],
+					"uvDown": [41, 63, 43, 64]
+				}
+			],
+			"id": "sign1"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [-3, 5, 0, 6, 2, 0.25],
+					"uvNorth": [39, 57, 45, 59],
+					"uvEast": [39, 57, 40, 59],
+					"uvSouth": [39, 57, 45, 59],
+					"uvWest": [44, 57, 45, 59],
+					"uvUp": [39, 57, 45, 58],
+					"uvDown": [39, 58, 45, 59]
+				}
+			],
+			"id": "sign2"
+		}
+	]
+}

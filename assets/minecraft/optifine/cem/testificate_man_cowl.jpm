@@ -1,0 +1,54 @@
+{
+	"texture": "textures/entity/villager/testificate_man",
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 8, 11, 8],
+					"uvNorth": [40, 8, 48, 18],
+					"uvEast": [32, 8, 40, 18],
+					"uvSouth": [56, 8, 64, 18],
+					"uvWest": [48, 8, 56, 18],
+					"uvUp": [40, 0, 48, 8],
+					"uvDown": [48, 0, 56, 8]
+				}
+			],
+			"id": "cowl",
+		  "scale": 1.1
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [-0.2, 2, 2, 0.25, 3, 5],
+					"uvNorth": [56, 0, 57, 3],
+					"uvEast": [56, 0, 61, 3],
+					"uvSouth": [60, 0, 61, 3],
+					"uvWest": [56, 0, 61, 3],
+					"uvUp": [61, 0, 62, 5],
+					"uvDown": [62, 0, 63, 5]
+				}
+			],
+			"id": "earL",
+		  "rotate": [35, 0, 0],
+			  "scale": 1.5
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [5.8, 2, 2, 0.25, 3, 5],
+					"uvNorth": [56, 0, 57, 3],
+					"uvEast": [56, 0, 61, 3],
+					"uvSouth": [60, 0, 61, 3],
+					"uvWest": [56, 0, 61, 3],
+					"uvUp": [61, 0, 62, 5],
+					"uvDown": [62, 0, 63, 5]
+				}
+			],
+			"id": "earL",
+			"rotate": [35, 0, 0],
+				"scale": 1.5
+		}
+	]
+}

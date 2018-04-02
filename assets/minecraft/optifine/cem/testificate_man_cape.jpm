@@ -1,0 +1,21 @@
+{
+	"texture": "textures/entity/villager/testificate_man",
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 8, 20, 1],
+					"uvNorth": [31, 42, 39, 64],
+					"uvEast": [31, 42, 32, 64],
+					"uvSouth": [31, 42, 39, 64],
+					"uvWest": [38, 42, 39, 64],
+					"uvUp": [31, 42, 39, 43],
+					"uvDown": [31, 63, 39, 64]
+				}
+			],
+			"id": "cape"
+		}
+	]
+}

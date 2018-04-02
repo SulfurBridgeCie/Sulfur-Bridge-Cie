@@ -1,0 +1,37 @@
+{
+  "comment": "Model by Messire_Lie",
+  "models":
+  [
+	{
+  "model": "testificate_man_cape.jpm",
+  "part": "body",
+  "attach": true,
+  "translate": [ -4, 0, 3],
+  "rotate": [0, 0, 0],
+  "animations":
+    [
+      {
+    "cape.rx": "0.3 + (sin(time / 18) / 8)"
+      }
+    ]
+  },
+
+  {
+  "model": "testificate_man_cowl.jpm",
+  "part": "head",
+  "attach": true,
+  "translate": [ -4.4, -13, -4.4],
+  "rotate": [0, 0, 0]
+  },
+
+  {
+  "model": "testificate_man_belt.jpm",
+  "part": "body",
+  "attach": true,
+  "translate": [0, 14, -4],
+  "rotate": [0, 0, 180],
+  "scale": 0.75
+        }
+
+  ]
+}

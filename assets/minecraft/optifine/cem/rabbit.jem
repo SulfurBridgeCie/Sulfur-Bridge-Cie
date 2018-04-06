@@ -2,7 +2,16 @@
   "comment": "Model by Messire_Lie",
   "models":
   [
-	{
+
+  {
+      "model": "frog_head.jpm",
+      "part": "head",
+      "attach": true,
+      "translate": [-3, -4, -5],
+      "rotate": [0, 0, 0]
+        },
+
+  {
       "model": "squirrel_tail.jpm",
       "part": "tail",
       "attach": true,

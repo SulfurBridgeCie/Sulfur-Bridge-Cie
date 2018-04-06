@@ -1,0 +1,49 @@
+{
+"texture": "textures/entity/rabbit/frog_assets",
+"textureSize": [32, 16],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [-0.5, -2.5, 2.25, 2, 3, 2],
+					"uvNorth": [26, 2, 28, 5],
+					"uvEast": [24, 2, 26, 5],
+					"uvSouth": [30, 2, 32, 5],
+					"uvWest": [28, 2, 30, 5],
+					"uvUp": [26, 0, 28, 2],
+					"uvDown": [28, 0, 30, 2]
+				}
+			],
+			"id": "bone"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [4.5, -2.5, 2.25, 2, 3, 2],
+					"uvNorth": [26, 7, 28, 10],
+					"uvEast": [24, 7, 26, 10],
+					"uvSouth": [30, 7, 32, 10],
+					"uvWest": [28, 7, 30, 10],
+					"uvUp": [26, 5, 28, 7],
+					"uvDown": [28, 5, 30, 7]
+				}
+			],
+			"id": "bone"
+		},
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 6, 3, 5],
+					"uvNorth": [5, 5, 11, 8],
+					"uvEast": [0, 5, 5, 8],
+					"uvSouth": [16, 5, 22, 8],
+					"uvWest": [11, 5, 16, 8],
+					"uvUp": [5, 0, 11, 5],
+					"uvDown": [11, 0, 17, 5]
+				}
+			],
+			"id": "bone"
+		}
+	]
+}

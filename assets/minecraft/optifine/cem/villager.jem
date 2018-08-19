@@ -81,6 +81,14 @@
         "cape.rx": "0.3 + (sin(time / 18) / 8)"
           }
         ]
+    },
+
+    {
+        "model": "npc_addon_beak.jpm",
+        "part": "head",
+        "attach": true,
+        "translate": [ -3, -3, -8],
+        "rotate": [0, 0, 0]
     }
 
 

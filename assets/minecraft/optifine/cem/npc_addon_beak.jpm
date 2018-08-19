@@ -1,0 +1,36 @@
+{
+	"texture": "textures/entity/villager/npc_addon",
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 6, 1, 4],
+					"uvNorth": [4, 21, 10, 22],
+					"uvEast": [10, 21, 14, 22],
+					"uvSouth":[14, 21, 20, 22],
+					"uvWest": [0, 21, 4, 22],
+					"uvUp": [4, 17, 10, 21],
+					"uvDown": [10, 17, 16, 21]
+				}
+			],
+			"id": "beak1"
+		},
+
+		{
+			"boxes": [
+				{
+					"coordinates": [1, -1, 3, 4, 1, 1],
+					"uvNorth": [1, 23, 5, 24],
+					"uvEast": [5, 23, 6, 24],
+					"uvSouth":[6, 23, 10, 24],
+					"uvWest": [0, 23, 1, 24],
+					"uvUp": [1, 22, 5, 23],
+					"uvDown": [5, 22, 9, 25]
+				}
+			],
+			"id": "beak2"
+		}
+	]
+}

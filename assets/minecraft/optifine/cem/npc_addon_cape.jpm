@@ -1,0 +1,21 @@
+{
+	"texture": "textures/entity/villager/npc_addon",
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 10, 16, 1],
+					"uvNorth": [12, 1, 22, 17],
+					"uvEast": [11, 1, 12, 17],
+					"uvSouth":[1, 1, 11, 17],
+					"uvWest": [0, 1, 1, 17],
+					"uvUp": [1, 0, 11, 1],
+					"uvDown": [11, 0, 21, 1]
+				}
+			],
+			"id": "cape"
+		}
+	]
+}

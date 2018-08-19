@@ -1,37 +1,88 @@
 {
-  "comment": "Model by Messire_Lie",
+  "comment": "Model by sixfootblue",
   "models":
   [
+    {
+      "model": "npc_head.jpm",
+      "part": "head",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
 	{
-  "model": "testificate_man_cape.jpm",
-  "part": "body",
-  "attach": true,
-  "translate": [ -4, 0, 3],
-  "rotate": [0, 0, 0],
-  "animations":
-    [
-      {
-    "cape.rx": "0.3 + (sin(time / 18) / 8)"
-      }
-    ]
-  },
-
-  {
-  "model": "testificate_man_cowl.jpm",
-  "part": "head",
-  "attach": true,
-  "translate": [ -4.4, -13, -4.4],
-  "rotate": [0, 0, 0]
-  },
-
-  {
-  "model": "testificate_man_belt.jpm",
-  "part": "body",
-  "attach": true,
-  "translate": [0, 14, -4],
-  "rotate": [0, 0, 180],
-  "scale": 0.75
+      "model": "npc_body.jpm",
+      "part": "body",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+	{
+      "model": "npc_armright.jpm",
+      "part": "body",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+	  "animations":
+      [
+        {
+          "this.rz": "270.235 + (sin(time / 13) / 18)",
+		  "this.rx": "(sin(time / 23) / 18) + left_leg.rx",
+		  "this.tx": "-4",
+		  "this.ty": "2"
         }
+      ]
+    },
+	{
+      "model": "npc_armleft.jpm",
+      "part": "body",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+	  "animations":
+      [
+        {
+          "this.rz": "270.125 - (sin(time / 13) / 18)",
+		  "this.rx": "-(sin(time / 23) / 18) + right_leg.rx",
+		  "this.tx": "4",
+		  "this.ty": "2"
+        }
+      ]
+    },
+	{
+      "model": "npc_arms.jpm",
+      "part": "arms",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+	{
+      "model": "npc_legright.jpm",
+      "part": "right_leg",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+	{
+      "model": "npc_legleft.jpm",
+      "part": "left_leg",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+  {
+      "model": "npc_addon_cape.jpm",
+      "part": "body",
+      "attach": true,
+      "translate": [ -5, 0, 2],
+      "rotate": [0, 0, 0],
+      "animations":
+        [
+          {
+        "cape.rx": "0.3 + (sin(time / 18) / 8)"
+          }
+        ]
+    }
+
 
   ]
 }

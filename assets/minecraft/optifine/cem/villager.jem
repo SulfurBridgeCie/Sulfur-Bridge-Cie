@@ -87,7 +87,7 @@
         "model": "npc_addon_beak.jpm",
         "part": "head",
         "attach": true,
-        "translate": [ -3, -3, -8],
+        "translate": [ 0, 0, 0],
         "rotate": [0, 0, 0]
     }
 

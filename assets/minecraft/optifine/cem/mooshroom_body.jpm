@@ -1,12 +1,12 @@
 {
-	"texture": "textures/entity/cow/cow_body",
+	"texture": "textures/entity/cow/mooshroom_body",
 	"textureSize": [64, 32],
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"submodels": [
 		{
 			"boxes": [
 				{
-					"coordinates": [-0.75, 0, -0.5, 14, 15, 12],
+					"coordinates": [0, -2, 0, 14, 15, 12],
 					"uvNorth": [12, 12, 26, 27],
 					"uvEast": [0, 12, 12, 27],
 					"uvSouth": [38, 12, 52, 27],
@@ -16,8 +16,7 @@
 				}
 			],
 			"id": "cube",
-			"rotate": [-90, 0, 0],
-			"scale": 1.2
+			"rotate": [-90, 0, 0]
 		}
 	]
 }

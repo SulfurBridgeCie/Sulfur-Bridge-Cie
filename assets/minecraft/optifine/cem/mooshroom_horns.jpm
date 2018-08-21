@@ -1,12 +1,12 @@
 {
-	"texture": "textures/entity/cow/cow_body",
+	"texture": "textures/entity/cow/mooshroom_body",
 	"textureSize": [64, 32],
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"submodels": [
 		{
 			"boxes": [
 				{
-					"coordinates": [4, -5, -5, 2, 4, 3],
+					"coordinates": [3.25, -5, -5, 2, 4, 3],
 					"uvNorth": [3, 4, 5, 8],
 					"uvEast": [3, 4, 6, 8],
 					"uvSouth": [3, 4, 5, 8],
@@ -21,7 +21,7 @@
 		{
 			"boxes": [
 				{
-					"coordinates": [-6, -5, -5, 2, 4, 3],
+					"coordinates": [-5.25, -5, -5, 2, 4, 3],
 					"uvNorth": [3, 4, 5, 8],
 					"uvEast": [3, 4, 6, 8],
 					"uvSouth": [3, 4, 5, 8],
@@ -38,7 +38,7 @@
 		{
 			"boxes": [
 				{
-					"coordinates": [6, -9, -5, 2, 6, 3],
+					"coordinates": [5.25, -9, -5, 2, 6, 3],
 					"uvNorth": [0, 2, 2, 8],
 					"uvEast": [0, 2, 2, 8],
 					"uvSouth": [0, 2, 2, 8],
@@ -53,7 +53,7 @@
 		{
 			"boxes": [
 				{
-					"coordinates": [-8, -9, -5, 2, 6, 3],
+					"coordinates": [-7.25, -9, -5, 2, 6, 3],
 					"uvNorth": [0, 2, 2, 8],
 					"uvEast": [0, 2, 2, 8],
 					"uvSouth": [0, 2, 2, 8],
@@ -68,7 +68,7 @@
 		{
 			"boxes": [
 				{
-					"coordinates": [4, -12, -4.5, 2, 4, 2],
+					"coordinates": [3.25, -12, -4.5, 2, 4, 2],
 					"uvNorth": [7, 4, 9, 8],
 					"uvEast": [7, 4, 9, 8],
 					"uvSouth": [7, 4, 9, 8],
@@ -83,7 +83,7 @@
 		{
 			"boxes": [
 				{
-					"coordinates": [-6, -12, -4.5, 2, 4, 2],
+					"coordinates": [-5.25, -12, -4.5, 2, 4, 2],
 					"uvNorth": [7, 4, 9, 8],
 					"uvEast": [7, 4, 9, 8],
 					"uvSouth": [7, 4, 9, 8],
@@ -98,7 +98,7 @@
 		{
 			"boxes": [
 				{
-					"coordinates": [6, -13, -4, 1, 1, 1],
+					"coordinates": [5.25, -13, -4, 1, 1, 1],
 					"uvNorth": [10, 7, 11, 8],
 					"uvEast": [10, 7, 11, 8],
 					"uvSouth": [10, 7, 11, 8],
@@ -113,7 +113,7 @@
 		{
 			"boxes": [
 				{
-					"coordinates": [-7, -13, -4, 1, 1, 1],
+					"coordinates": [-6.25, -13, -4, 1, 1, 1],
 					"uvNorth": [10, 7, 11, 8],
 					"uvEast": [10, 7, 11, 8],
 					"uvSouth": [10, 7, 11, 8],
@@ -128,7 +128,7 @@
 		{
 			"boxes": [
 				{
-					"coordinates": [-3, 3, -7, 6, 4, 4],
+					"coordinates": [-2.25, 3, -7, 6, 4, 4],
 					"uvNorth": [44, 8, 50, 12],
 					"uvEast": [50, 8, 54, 12],
 					"uvSouth": [54, 8, 60, 12],

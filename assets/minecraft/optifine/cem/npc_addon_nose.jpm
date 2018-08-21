@@ -1,0 +1,21 @@
+{
+	"texture": "textures/entity/villager/npc",
+	"textureSize": [64, 64],
+  "credit": "Model by sixfootblue",
+  "submodels": [
+    {
+      "boxes": [
+        {
+          "coordinates": [-4,-8,-4,8,8,8],
+		  		"uvDown": [16,0,24,8],
+          "uvNorth": [8,8,16,16],
+          "uvSouth": [24,8,32,16],
+          "uvWest": [16,8,24,16],
+          "uvEast": [0,8,8,16]
+        }
+      ],
+			"id": "noise",
+      "rotate": [0,0,0]
+    }
+	]
+}

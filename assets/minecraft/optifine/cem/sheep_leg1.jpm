@@ -1,0 +1,22 @@
+{
+	"texture": "textures/entity/sheep/horns",
+	"textureSize": [64, 32],
+  "credit": "Model by Messire_Lie",
+  "submodels": [
+    {
+      "boxes": [
+        {
+          "coordinates": [0,0,0,4,12,4],
+          "uvNorth": [36, 20, 40, 32],
+  				"uvEast":  [32, 20, 36, 32],
+				  "uvSouth": [44, 20, 48, 32],
+          "uvWest":  [40, 20, 44, 32],
+        	"uvUp": [36, 16, 40, 20],
+					"uvDown": [40, 16, 44, 20]
+        }
+      ],
+			"id": "sheep_leg1",
+			"rotate": [0,0,0]
+        }
+  ]
+}

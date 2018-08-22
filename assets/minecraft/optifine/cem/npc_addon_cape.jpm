@@ -1,5 +1,5 @@
 {
-	"texture": "textures/entity/villager/npc_addon",
+	"texture": "textures/entity/npc/npc_addon",
 	"textureSize": [64, 64],
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"submodels": [

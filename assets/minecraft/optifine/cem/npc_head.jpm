@@ -1,5 +1,5 @@
 {
-	"texture": "textures/entity/villager/npc",
+	"texture": "textures/entity/npc/npc",
 	"textureSize": [64, 64],
   "credit": "Model by sixfootblue",
   "submodels": [

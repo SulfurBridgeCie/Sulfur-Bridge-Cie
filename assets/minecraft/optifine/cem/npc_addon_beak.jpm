@@ -1,5 +1,5 @@
 {
-	"texture": "textures/entity/villager/npc_addon",
+	"texture": "textures/entity/npc/npc_addon",
 	"textureSize": [64, 64],
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"submodels": [
@@ -61,6 +61,40 @@
 				}
 			],
 			"id": "hat"
+
+		},
+
+		{
+			"boxes": [
+				{
+					"coordinates": [-2,-11,-2,3,4,1],
+					"uvEast": [0, 45, 1, 49],
+					"uvNorth": [1, 45, 4, 49],
+					"uvWest": [4, 45, 5, 49],
+					"uvSouth": [5, 45, 7, 49],
+					"uvUp": [1, 44, 4, 45],
+					"uvDown": [4, 44, 7, 45]
+				}
+			],
+			"id": "earL",
+			"rotate": [0,50,-20]
+
+		},
+
+		{
+			"boxes": [
+				{
+					"coordinates": [-1,-11,-2,3,4,1],
+					"uvEast": [0, 45, 1, 49],
+					"uvNorth": [4, 45, 1, 49],
+					"uvWest": [4, 45, 5, 49],
+					"uvSouth": [7, 45, 5, 49],
+					"uvUp": [1, 44, 4, 45],
+					"uvDown": [4, 44, 7, 45]
+				}
+			],
+			"id": "earD",
+			"rotate": [0,-50,20]
 
 		}
 	]

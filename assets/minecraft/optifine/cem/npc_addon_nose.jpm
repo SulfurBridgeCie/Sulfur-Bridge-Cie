@@ -6,7 +6,7 @@
     {
       "boxes": [
         {
-          "coordinates": [-4,-8,-4,8,8,8],
+          "coordinates": [0, 0, 0, 8, 8, 8],
 		  		"uvDown": [16,0,24,8],
           "uvNorth": [8,8,16,16],
           "uvSouth": [24,8,32,16],
@@ -15,6 +15,7 @@
         }
       ],
 			"id": "noise",
+			"translate": [-4, -8, -4],
       "rotate": [0,0,0]
     }
 	]

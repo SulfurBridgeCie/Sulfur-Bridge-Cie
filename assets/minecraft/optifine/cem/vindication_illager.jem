@@ -3,23 +3,23 @@
   "models":
   [
     {
-      "model": "stevehead.jpm",
+      "model": "npc_head.jpm",
       "part": "head",
-      "attach": false,
+      "attach": true,
       "translate": [0, 0, 0],
       "rotate": [0, 0, 0]
     },
 	{
-      "model": "stevebody.jpm",
+      "model": "npc_body.jpm",
       "part": "body",
-      "attach": false,
+      "attach": true,
       "translate": [0, 0, 0],
       "rotate": [0, 0, 0]
     },
 	{
-      "model": "stevearmright.jpm",
+      "model": "npc_armright.jpm",
       "part": "arms",
-      "attach": false,
+      "attach": true,
       "translate": [0, -3, -1.25],
       "rotate": [0, 0, 0],
 	  "animations":
@@ -34,7 +34,7 @@
       ]
     },
 	{
-      "model": "stevearmleft.jpm",
+      "model": "npc_armleft.jpm",
       "part": "arms",
       "attach": true,
       "translate": [0, -3, -1.25],
@@ -51,32 +51,68 @@
       ]
     },
 	{
-      "model": "stevearmright.jpm",
+      "model": "npc_armright.jpm",
       "part": "right_arm",
-      "attach": false,
+      "attach": true,
       "translate": [1, 0, 0],
       "rotate": [0, 0, 0]
     },
 	{
-      "model": "stevearmleft.jpm",
+      "model": "npc_armleft.jpm",
       "part": "left_arm",
-      "attach": false,
+      "attach": true,
       "translate": [-1, 0, 0],
       "rotate": [0, 0, 0]
     },
 	{
-      "model": "stevelegright.jpm",
+      "model": "npc_legright.jpm",
       "part": "right_leg",
-      "attach": false,
+      "attach": true,
       "translate": [0, 0, 0],
       "rotate": [0, 0, 0]
     },
 	{
-      "model": "stevelegleft.jpm",
+      "model": "npc_legleft.jpm",
       "part": "left_leg",
-      "attach": false,
+      "attach": true,
       "translate": [0, 0, 0],
       "rotate": [0, 0, 0]
-    }
+    },
+
+    {
+        "model": "npc_addon_cape.jpm",
+        "part": "body",
+        "attach": true,
+        "translate": [ 0, 0, 0],
+        "rotate": [0, 0, 0],
+        "animations":
+          [
+            {
+          "cape.rx": "0.3 + (sin(time / 18) / 8)"
+            }
+          ]
+      },
+
+      {
+          "model": "npc_addon_head.jpm",
+          "part": "head",
+          "attach": true,
+          "translate": [ 0, 0, 0],
+          "rotate": [0, 0, 0]
+      },
+
+      {
+          "model": "npc_addon_tails.jpm",
+          "part": "body",
+          "attach": true,
+          "translate": [ 0, 0, 0],
+          "rotate": [0, 0, 0],
+          "animations":
+            [
+              {
+            "tail.ry": "0 + (sin(time / 18) / 4)"
+              }
+            ]
+      }
   ]
 }

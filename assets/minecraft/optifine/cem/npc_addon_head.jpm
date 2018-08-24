@@ -6,7 +6,7 @@
 		{
 			"boxes": [
 				{
-					"coordinates": [-3, -3, -8, 6, 1, 4],
+					"coordinates": [0, 0 ,0, 6, 1, 4],
 					"uvNorth": [4, 21, 10, 22],
 					"uvEast": [0, 21, 4, 22],
 					"uvSouth": [14, 21, 20, 22],
@@ -15,13 +15,15 @@
 					"uvDown": [10, 17, 16, 21]
 				}
 			],
-			"id": "beak1"
+			"id": "beak1",
+			"translate": [-3, -3, -8],
+			"rotate": [0, 0, 0]
 		},
 
 		{
 			"boxes": [
 				{
-					"coordinates": [-2, -4, -5, 4, 1, 1],
+					"coordinates": [0, 0, 0, 4, 1, 1],
 					"uvNorth": [1, 23, 5, 24],
 					"uvEast": [0, 23, 1, 24],
 					"uvSouth":[6, 23, 10, 24],
@@ -30,13 +32,16 @@
 					"uvDown": [5, 22, 9, 23]
 				}
 			],
-			"id": "beak2"
+			"id": "beak2",
+			"translate": [-2, -4, -5],
+			"rotate": [0, 0, 0]
+
 		},
 
 		{
 			"boxes": [
 				{
-					"coordinates": [-2,-4,-7,4,3,3],
+					"coordinates": [0, 0, 0, 4, 3, 3],
 					"uvNorth": [3, 27, 7, 30],
 					"uvEast": [0, 27, 3, 30],
 					"uvSouth": [10, 27, 14, 30],
@@ -45,13 +50,16 @@
 					"uvDown": [7, 24, 11, 27]
 				}
 			],
-			"id": "noise"
+			"id": "nose",
+			"translate": [-2, -4, -7],
+			"rotate": [0, 0, 0]
+
 		},
 
 		{
 			"boxes": [
 				{
-					"coordinates": [-3,-16,-3,6,8,6],
+					"coordinates": [0, 0, 0, 6, 8, 6],
 					"uvNorth": [0, 36, 6, 44],
 					"uvEast": [0, 36, 6, 44],
 					"uvSouth": [0, 36, 6, 44],
@@ -60,14 +68,16 @@
 					"uvDown": [6, 30, 7, 31]
 				}
 			],
-			"id": "hat"
+			"id": "hat",
+			"translate": [-3, -16, -3],
+			"rotate": [0, 0, 0]
 
 		},
 
 		{
 			"boxes": [
 				{
-					"coordinates": [-2,-11,-2,3,4,1],
+					"coordinates": [0, 0, 0, 3, 4, 1],
 					"uvEast": [0, 45, 1, 49],
 					"uvNorth": [1, 45, 4, 49],
 					"uvWest": [4, 45, 5, 49],
@@ -77,14 +87,15 @@
 				}
 			],
 			"id": "earL",
-			"rotate": [0,50,-20]
+			"translate": [-7, -9, 0],
+			"rotate": [0,40,-20]
 
 		},
 
 		{
 			"boxes": [
 				{
-					"coordinates": [-1,-11,-2,3,4,1],
+					"coordinates": [0, 0, 0, 3, 4, 1],
 					"uvEast": [0, 45, 1, 49],
 					"uvNorth": [4, 45, 1, 49],
 					"uvWest": [4, 45, 5, 49],
@@ -94,7 +105,44 @@
 				}
 			],
 			"id": "earD",
-			"rotate": [0,-50,20]
+			"translate": [5, -10, -2],
+			"rotate": [0,-40,20]
+
+		},
+
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 2, 4, 3],
+					"uvWest": [19, 25, 22, 29],
+					"uvNorth": [17, 25, 19, 29],
+					"uvEast": [14, 25, 17, 29];
+					"uvSouth": [22, 25, 24, 29],
+					"uvUp": [19, 22, 21, 25],
+					"uvDown": [17, 22, 19, 25]
+				}
+			],
+			"id": "beak3",
+			"translate": [1, -2, -4],
+			"rotate": [90, 180, 0]
+
+		},
+
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 1, 1, 1],
+					"uvWest": [21, 24, 22, 25],
+					"uvNorth": [21, 24, 22, 25],
+					"uvEast": [21, 24, 22, 25],
+					"uvSouth": [21, 24, 22, 25],
+					"uvUp": [21, 24, 22, 25],
+					"uvDown": [21, 24, 22, 25]
+				}
+			],
+			"id": "beak4",
+			"translate": [-0.5, -2, -8],
+			"rotate": [0, 0, 0]
 
 		}
 	]

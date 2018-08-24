@@ -1,0 +1,23 @@
+{
+	"texture": "textures/entity/npc/npc_addon",
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 3, 10, 3],
+					"uvEast": [0, 52, 3, 62],
+					"uvNorth": [3, 52, 6, 62],
+					"uvWest": [6, 52, 9, 62],
+					"uvSouth":[9, 52, 12, 62],
+					"uvUp": [4, 49, 6, 52],
+					"uvDown": [6, 49, 9, 52]
+				}
+			],
+			"id": "tail",
+			"translate": [-1.5, 11, 0],
+			"rotate": [40, 0, 0]
+		}
+	]
+}

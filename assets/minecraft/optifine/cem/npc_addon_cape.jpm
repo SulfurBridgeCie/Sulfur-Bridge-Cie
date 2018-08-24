@@ -15,7 +15,9 @@
 					"uvDown": [11, 0, 21, 1]
 				}
 			],
-			"id": "cape"
+			"id": "cape",
+		  "translate": [ -5, 0, 2],
+		 	"rotate": [0, 0, 0]
 		}
 	]
 }

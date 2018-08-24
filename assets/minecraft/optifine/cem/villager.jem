@@ -73,7 +73,7 @@
       "model": "npc_addon_cape.jpm",
       "part": "body",
       "attach": true,
-      "translate": [ -5, 0, 2],
+      "translate": [ 0, 0, 0],
       "rotate": [0, 0, 0],
       "animations":
         [
@@ -84,11 +84,25 @@
     },
 
     {
-        "model": "npc_addon_beak.jpm",
+        "model": "npc_addon_head.jpm",
         "part": "head",
         "attach": true,
         "translate": [ 0, 0, 0],
         "rotate": [0, 0, 0]
+    },
+
+    {
+        "model": "npc_addon_tails.jpm",
+        "part": "body",
+        "attach": true,
+        "translate": [ 0, 0, 0],
+        "rotate": [0, 0, 0],
+        "animations":
+          [
+            {
+          "tail.ry": "0 + (sin(time / 18) / 4)"
+            }
+          ]
     }
 
 

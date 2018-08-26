@@ -1,0 +1,28 @@
+{
+  "comment": "Model by Messire_Lie",
+  "models":
+  [
+    {
+      "model": "bat_head.jpm",
+      "part": "head",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "bat_body.jpm",
+      "part": "body",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+      "animations":
+        [
+          {
+        "body.rx": "2 + (sin(time / 6) / 2)"
+          }
+        ]
+    }
+
+
+  ]
+}

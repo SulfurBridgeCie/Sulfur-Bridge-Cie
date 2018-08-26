@@ -1,0 +1,22 @@
+{
+  "comment": "Model by Messire_Lie",
+  "models":
+  [
+    {
+      "model": "spider_head.jpm",
+      "part": "head",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "spider_body.jpm",
+      "part": "body",
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    }
+
+
+  ]
+}

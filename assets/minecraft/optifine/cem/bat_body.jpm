@@ -1,0 +1,58 @@
+{
+	"texture": "textures/entity/bat",
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 6, 1, 1],
+					"uvEast": [5, 51, 6, 52],
+					"uvNorth": [0, 51, 6, 52],
+					"uvWest": [0, 51, 1, 52],
+					"uvSouth": [0, 51, 6, 52],
+					"uvUp": [0, 51, 6, 52],
+					"uvDown": [0, 51, 6, 52]
+				}
+			],
+			"id": "tail1",
+			"translate": [0.5, 16, 2],
+			"rotate": [	0, -20, 90]
+			},
+
+			{
+	"boxes": [
+		{
+			"coordinates": [0, 0, 0, 5, 1, 1],
+			"uvEast": [6, 51, 7, 52],
+			"uvNorth": [6, 51, 11, 52],
+			"uvWest": [10, 51, 11, 52],
+			"uvSouth": [6, 51, 11, 52],
+			"uvUp": [6, 51, 11, 52],
+			"uvDown": [6, 51, 11, 52]
+		}
+	],
+	"id": "tail2",
+	"translate": [0.5, 22, 4],
+	"rotate": [	0, -40, 90]
+		},
+
+		{
+	"boxes": [
+	{
+		"coordinates": [0, 0, 0, 4, 1, 1],
+		"uvEast": [11, 51, 12, 52],
+		"uvNorth": [11, 51, 15, 52],
+		"uvWest": [14, 51, 15, 52],
+		"uvSouth": [11, 51, 15, 52],
+		"uvUp": [11, 51, 15, 52],
+		"uvDown": [11, 51, 15, 52]
+	}
+	],
+	"id": "tail3",
+	"translate": [0.5, 26.25, 7.5],
+	"rotate": [	0, -60, 90]
+	}
+
+	]
+}

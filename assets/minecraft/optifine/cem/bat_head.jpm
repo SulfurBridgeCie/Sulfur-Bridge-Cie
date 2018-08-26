@@ -1,0 +1,74 @@
+{
+	"texture": "textures/entity/bat",
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"submodels": [
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 4, 4, 1],
+					"uvEast": [0, 42, 1, 46],
+					"uvNorth": [1, 42, 5, 46],
+					"uvWest": [5, 42, 6, 46],
+					"uvSouth": [6, 42, 10, 46],
+					"uvUp": [1, 41, 5, 42],
+					"uvDown": [5, 41, 9, 42]
+				}
+			],
+			"id": "earL",
+			"translate": [2, -6, -1],
+			"rotate": [0, 0, 0]
+		},
+
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 4, 4, 1],
+					"uvEast": [0, 47, 1, 51],
+					"uvNorth": [1, 47, 5, 51],
+					"uvWest": [5, 47, 6, 51],
+					"uvSouth": [6, 47, 10, 51],
+					"uvUp": [1, 46, 5, 47],
+					"uvDown": [5, 46, 9, 47]
+				}
+			],
+			"id": "earD",
+			"translate": [-6, -6, -1],
+			"rotate": [0, 0, 0]
+		},
+
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 3, 3, 4],
+					"uvEast": [0, 56, 4, 59],
+					"uvNorth": [4, 56, 7, 59],
+					"uvWest": [7, 56, 11, 59],
+					"uvSouth": [10, 56, 14, 59],
+					"uvUp": [4, 52, 7, 56],
+					"uvDown": [7, 52, 10, 56]
+				}
+			],
+			"id": "Nose1",
+			"translate": [-1.5, 0, -6],
+			"rotate": [0, 0, 0]
+		},
+
+		{
+			"boxes": [
+				{
+					"coordinates": [0, 0, 0, 1, 1, 1],
+					"uvEast": [0, 59, 1, 60],
+					"uvNorth": [0, 59, 1, 60],
+					"uvWest": [0, 59, 1, 60],
+					"uvSouth": [0, 59, 1, 60],
+					"uvUp": [0, 59, 1, 60],
+					"uvDown": [0, 59, 1, 60]
+				}
+			],
+			"id": "Nose1",
+			"translate": [-0.5, -0.5, -6.5],
+			"rotate": [0, 0, 0]
+		}
+	]
+}

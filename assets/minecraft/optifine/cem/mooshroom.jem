@@ -1,23 +1,43 @@
 {
+  "texture": "textures/entity/cow/mooshroom",
+	"textureSize": [64, 32],
   "comment": "Model by Messire_Lie",
+
   "models":
   [
 
   {
-      "model": "mooshroom_body.jpm",
-      "part": "body",
-      "attach": true,
-      "translate": [-7, -10.5, 6],
-      "rotate": [0, 0, 0]
+  "part": "body",
+  "texture": "textures/entity/cow/mooshroom_body.png",
+  "textureSize": [64, 64],
+  "attach": true,
+  "invertAxis": "xy",
+  "translate": [0, 0, 0],
+  "rotate": [90, 0, 0],
+  "scale": 1,
+  "boxes": [
+        {"comment": "Body","coordinates": [-7, -7, -8.5, 14, 15, 12], "textureOffset": [0, 37]}
+    ]
   },
 
   {
-      "model": "mooshroom_horns.jpm",
       "part": "head",
+      "texture": "textures/entity/cow/mooshroom_body.png",
+      "textureSize": [64, 64],
       "attach": true,
       "translate": [0, 0, 0],
       "rotate": [0, 0, 0],
-    	"scale": 1.2
+      "boxes": [
+				{"comment": "BaseG", "coordinates": [4, -5, -5, 2, 4, 3], "textureOffset": [18, 2]},
+        {"comment": "BaseD","coordinates": [-6, -5, -5, 2, 4, 3], "textureOffset": [18, 2]},
+      	{"comment": "MedianG","coordinates": [6, -9, -5, 2, 6, 3], "textureOffset": [8, 0]},
+        {"comment": "MedianD","coordinates": [-8, -9, -5, 2, 6, 3], "textureOffset": [8, 0]},
+        {"comment": "HighG","coordinates": [4, -12, -4.5, 2, 4, 2],"textureOffset": [0, 3]},
+  			{"comment": "HighD","coordinates": [-6, -12, -4.5, 2, 4, 2], "textureOffset": [0, 3]},
+        {"comment": "PointG","coordinates": [6, -13, -4, 1, 1, 1], "textureOffset": [0, 0]},
+      	{"comment": "PointD","coordinates": [-7, -13, -4, 1, 1, 1], "textureOffset": [0, 0]},
+        {"comment": "Nose","coordinates": [-3, 3, -8, 6, 5, 6], "textureOffset": [0, 10]}
+          ]
   }
 
 

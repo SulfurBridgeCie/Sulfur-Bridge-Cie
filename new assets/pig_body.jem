@@ -1,0 +1,83 @@
+{
+	"texture": "pig_assets.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "body",
+			"texture": "textures/entity/pig/pig_assets.png",
+			"textureSize": [64, 64],
+			"attach": true,
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-6, 7, -6, 12, 8, 6], "textureOffset": [0, 0]},
+				{"coordinates": [-6, 7, 3, 12, 8, 7], "textureOffset": [0, 15]}
+			]
+		},
+		{
+		"part": "body",
+		"texture": "textures/entity/pig/pig_assets.png",
+		"textureSize": [64, 64],
+		"attach": true,
+			"invertAxis": "xy",
+			"translate": [0, -15, 3],
+			"rotate": [30, -20, 0],
+			"boxes": [
+				{"coordinates": [-2, 13, -3, 1, 10, 1], "textureOffset": [40, 21]},
+				{"coordinates": [1, 17, 4, 1, 10, 1], "textureOffset": [40, 21]}
+			]
+		},
+		{
+		"part": "body",
+		"texture": "textures/entity/pig/pig_assets.png",
+		"textureSize": [64, 64],
+		"attach": true,
+			"invertAxis": "xy",
+			"translate": [0, -15, 3],
+			"rotate": [45, -40, 0],
+			"boxes": [
+				{"coordinates": [-3, 16, -1, 1, 10, 1], "textureOffset": [40, 21]},
+				{"coordinates": [3, 21, 5, 1, 10, 1], "textureOffset": [40, 21]}
+			]
+		},
+		{
+		"part": "body",
+		"texture": "textures/entity/pig/pig_assets.png",
+		"textureSize": [64, 64],
+		"attach": true,
+			"invertAxis": "xy",
+			"translate": [0, -15, 3],
+			"rotate": [40, 25, 0],
+			"boxes": [
+				{"coordinates": [0, 15, -2, 1, 10, 1], "textureOffset": [40, 21]},
+				{"coordinates": [-3, 19, 2, 1, 10, 1], "textureOffset": [40, 21]}
+			]
+		},
+		{
+		"part": "body",
+		"texture": "textures/entity/pig/pig_assets.png",
+		"textureSize": [64, 64],
+		"attach": true,
+			"invertAxis": "xy",
+			"translate": [0, -15, 3],
+			"rotate": [50, 40, 0],
+			"boxes": [
+				{"coordinates": [2, 15, -1, 1, 10, 1], "textureOffset": [40, 21]},
+				{"coordinates": [-3, 21, 4, 1, 10, 1], "textureOffset": [40, 21]}
+			]
+		},
+		{
+		"part": "body",
+		"texture": "textures/entity/pig/pig_assets.png",
+		"textureSize": [64, 64],
+		"attach": true,,
+			"invertAxis": "xy",
+			"translate": [0, -15, 3],
+			"rotate": [40, 0, 0],
+			"boxes": [
+				{"coordinates": [1, 12, -4, 1, 10, 1], "textureOffset": [40, 21]},
+				{"coordinates": [-2, 21, 5, 1, 10, 1], "textureOffset": [40, 21]}
+			]
+		}
+	]
+}

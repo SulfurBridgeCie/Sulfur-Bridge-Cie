@@ -2,9 +2,9 @@
 "__createdwith": "designed by Messire_Lie on opl's Model Creator",
 "ambientocclusion": false,
 "textures": {
-  "edge": "mcpatcher/cit/messirelie/shields/round_shield/round_shield_edge",
+  "edge": "optifine/cit/messirelie/shields/round_shield/round_shield_edge",
   "center": "./asvalia_shield",
-  "back": "mcpatcher/cit/messirelie/shields/round_shield/round_shield_back"
+  "back": "optifine/cit/messirelie/shields/round_shield/round_shield_back"
 },
 "elements": [
 {

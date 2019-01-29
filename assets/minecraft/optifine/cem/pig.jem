@@ -1,0 +1,128 @@
+{	"texture": "textures/entity/pig/pig.png",
+	"textureSize": [64, 32],
+
+	"models": [
+		{
+			"part": "head",
+			"texture": "textures/entity/pig/pig_assets.png",
+			"textureSize": [64, 64],
+	    "attach": true,
+			"invertAxis": "xy",
+			"translate": [0, -13, 5],
+			"boxes": [
+				{"coordinates": [1, 9, -15.5, 1, 1, 1], "textureOffset": [52, 22]},
+				{"coordinates": [-2, 9, -15.5, 1, 1, 1], "textureOffset": [48, 22]},
+				{"coordinates": [-4, 6, -16, 8, 3, 5], "textureOffset": [36, 12]},
+				{"coordinates": [3, 9, -15.5, 1, 3, 1], "textureOffset": [60, 22]},
+				{"coordinates": [-4, 9, -15.5, 1, 3, 1], "textureOffset": [56, 22]},
+				{"coordinates": [-3, 17, -13, 6, 4, 7], "textureOffset": [36, 0]}
+			]
+		},
+
+		{
+			"part": "head",
+			"texture": "textures/entity/pig/pig_assets.png",
+			"textureSize": [64, 64],
+			"attach": true,
+			"invertAxis": "xy",
+			"translate": [-5, 5, -6],
+			"rotate": [0, 22, 22],
+			"boxes": [
+				{"coordinates": [0, 0, 0, 3, 5, 1], "textureOffset": [48, 26]}
+			]
+		},
+
+		{
+			"part": "head",
+			"texture": "textures/entity/pig/pig_assets.png",
+			"textureSize": [64, 64],
+			"attach": true,
+			"invertAxis": "xy",
+			"translate": [2, 6, -7],
+			"rotate": [0, -22, -22],
+			"boxes": [
+				{"coordinates": [0, 0, 0, 3, 5, 1], "textureOffset": [56, 26]}
+			]
+		},
+		{
+			"part": "body",
+			"texture": "textures/entity/pig/pig_assets.png",
+			"textureSize": [64, 64],
+	    "attach": true,
+			"invertAxis": "xy",
+			"translate": [0, 3, -13],
+			"rotate": [90, 0, 0],
+			"boxes": [
+				{"coordinates": [-6, 7, -8, 12, 8, 6], "textureOffset": [0, 0]},
+				{"coordinates": [-6, 7, 3, 12, 8, 7], "textureOffset": [0, 15]}
+			]
+		},
+		{
+			"part": "body",
+			"texture": "textures/entity/pig/pig_assets.png",
+			"textureSize": [64, 64],
+			"attach": true,
+			"invertAxis": "xy",
+			"translate": [4, 12, -12],
+			"rotate": [120, -20, 0],
+			"boxes": [
+				{"coordinates": [-2, 13, -3, 1, 10, 1], "textureOffset": [40, 21]},
+				{"coordinates": [1, 17, 4, 1, 10, 1], "textureOffset": [40, 21]}
+			]
+		},
+		{
+			"part": "body",
+			"texture": "textures/entity/pig/pig_assets.png",
+			"textureSize": [64, 64],
+			"attach": true,
+			"invertAxis": "xy",
+			"translate": [4, 17, -10],
+			"rotate": [135, -40, 0],
+			"boxes": [
+				{"coordinates": [-3, 16, -1, 1, 10, 1], "textureOffset": [40, 21]},
+				{"coordinates": [1, 23, 5, 1, 10, 1], "textureOffset": [40, 21]}
+			]
+		},
+		{
+			"part": "body",
+			"texture": "textures/entity/pig/pig_assets.png",
+			"textureSize": [64, 64],
+			"attach": true,
+			"invertAxis": "xy",
+			"translate": [0, 14, -11],
+			"rotate": [130, 25, 0],
+			"boxes": [
+				{"coordinates": [-3, 14, -3, 1, 10, 1], "textureOffset": [40, 21]},
+				{"coordinates": [-2, 19, 3, 1, 10, 1], "textureOffset": [40, 21]}
+			]
+		},
+		{
+			"part": "body",
+			"texture": "textures/entity/pig/pig_assets.png",
+			"textureSize": [64, 64],
+			"attach": true,
+			"invertAxis": "xy",
+			"translate": [0, 14, -9],
+			"rotate": [140, 40, 0],
+			"boxes": [
+				{"coordinates": [-1, 8, -4, 1, 10, 1], "textureOffset": [40, 21]},
+				{"coordinates": [-2, 19, 3, 1, 10, 1], "textureOffset": [40, 21]}
+			]
+		},
+
+		{
+			"part": "body",
+			"texture": "textures/entity/pig/pig_assets.png",
+			"textureSize": [64, 64],
+			"attach": true,
+			"invertAxis": "xy",
+			"translate": [0, 12, -12],
+			"rotate": [130, 0, 0],
+			"boxes": [
+				{"coordinates": [1, 12, -6, 1, 10, 1], "textureOffset": [40, 21]},
+				{"coordinates": [-2, 21, 5, 1, 10, 1], "textureOffset": [40, 21]}
+			]
+		}
+
+	]
+}

@@ -1,22 +1,49 @@
 {
+  "texture": "textures/entity/cow/cow",
+	"textureSize": [64, 32],
   "comment": "Model by Messire_Lie",
+
   "models":
   [
 
   {
-      "model": "cow_body.jpm",
-      "part": "body",
-      "attach": true,
-      "translate": [-7, -10.5, 6],
-      "rotate": [0, 0, 0]
+  "part": "body",
+  "texture": "textures/entity/cow/cow_body.png",
+  "textureSize": [64, 64],
+  "attach": true,
+  "invertAxis": "xy",
+  "translate": [0, 0, 0],
+  "rotate": [90, 0, 0],
+	"animations":	[
+  {"this.sx": "abs(sin(time / 20))/10 + 1" },
+  {"this.sy": "abs(sin(time / 20))/10 + 1" },
+  {"this.sz": "abs(sin(time / 20))/10 + 1" }
+   ],
+  "boxes": [
+        {"comment": "Body","coordinates": [-8, -9, -11, 16, 15, 16], "textureOffset": [0, 33]}
+    ]
   },
 
   {
-      "model": "cow_horns.jpm",
       "part": "head",
+      "texture": "textures/entity/cow/cow_body.png",
+      "textureSize": [64, 64],
       "attach": true,
       "translate": [0, 0, 0],
-      "rotate": [0, 0, 0]
+      "rotate": [0, 0, 0],
+      "boxes": [
+				{"comment": "BaseG", "coordinates": [4, -3, -5, 2, 4, 3], "textureOffset": [18, 2]},
+        {"comment": "BaseD","coordinates": [-6, -3, -5, 2, 4, 3], "textureOffset": [18, 2]},
+      	{"comment": "MedianG","coordinates": [6, -1, -5, 2, 6, 3], "textureOffset": [8, 0]},
+        {"comment": "MedianD","coordinates": [-8, -1, -5, 2, 6, 3], "textureOffset": [8, 0]},
+        {"comment": "HighG","coordinates": [8, 4, -4.5, 2, 2, 2],"textureOffset": [28, 5]},
+  			{"comment": "HighD","coordinates": [-10, 4, -4.5, 2, 2, 2], "textureOffset": [28, 5]},
+	      {"comment": "EndG","coordinates": [10, 2, -4.5, 2, 3, 1], "textureOffset": [0, 5]},
+        {"comment": "EndD","coordinates": [-12, 2, -4.5, 2, 3, 1], "textureOffset": [0, 5]},
+        {"comment": "PointG","coordinates": [12, 1, -4.5, 1, 1, 1], "textureOffset": [0, 0]},
+      	{"comment": "PointD","coordinates": [-13, 1, -4.5, 1, 1, 1], "textureOffset": [0, 0]},
+        {"comment": "Nose","coordinates": [-3, 3, -7, 6, 4, 4], "textureOffset": [0, 10]}
+          ]
   }
 
 

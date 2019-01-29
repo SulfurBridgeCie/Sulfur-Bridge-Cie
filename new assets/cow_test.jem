@@ -1,0 +1,46 @@
+{
+	"texture": "cow_body2.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [0, 0, 0, 2, 4, 3], "textureOffset": [18, 2]}
+			]
+		},
+		{
+			"part": "median",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [3, 0, 0, 2, 6, 3], "textureOffset": [8, 0]}
+			]
+		},
+		{
+			"part": "bas",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-3, 0, 0, 2, 4, 2], "textureOffset": [0, 3]}
+			]
+		},
+		{
+			"part": "pointe",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-5, 0, 0, 1, 1, 1], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "museau",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-12, 0, 0, 6, 4, 4], "textureOffset": [0, 10]}
+			]
+		}
+	]
+}

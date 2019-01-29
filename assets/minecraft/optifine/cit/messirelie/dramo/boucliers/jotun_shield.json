@@ -2,9 +2,9 @@
 "__createdwith": "designed by Messire_Lie on opl's Model Creator",
 "ambientocclusion": false,
 "textures": {
-  "edge": "mcpatcher/cit/messirelie/shields/ecu_shield/ecu_shield_edge",
+  "edge": "optifine/cit/messirelie/shields/ecu_shield/ecu_shield_edge",
   "center": "./jotun_shield",
-  "back": "mcpatcher/cit/messirelie/shields/ecu_shield/ecu_shield_back"
+  "back": "optifine/cit/messirelie/shields/ecu_shield/ecu_shield_back"
 },
     "elements": [
         {
